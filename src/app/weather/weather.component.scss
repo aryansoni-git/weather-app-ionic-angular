@@ -1,0 +1,28 @@
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    ion-input {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+
+    ion-button {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        margin: 10px 0;
+    }
+}
+
+.custom-input {
+    color: black;
+    --padding-start: 12px;
+    --border-radius: 8px;
+    --background: #f0f0f0;
+    --placeholder-color: #888;
+}
